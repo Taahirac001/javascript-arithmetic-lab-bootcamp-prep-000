@@ -29,7 +29,10 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  return parseFloat(n)
+  var decimal = parseFloat(n)
+  if(n === decimal){
+    return n
+  }else {
+    return NaN
+  }
 }
-
-function
