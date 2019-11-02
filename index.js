@@ -29,7 +29,7 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  var decimal = parseInt(Float64Array)
+  var decimal = parseFloat(n)
   if(n === decimal){
     return n
   }else {
